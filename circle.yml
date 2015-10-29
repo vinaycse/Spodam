@@ -4,4 +4,4 @@ test:
     - find . -type f -regex ".*/target/surefire-reports/.*xml" -exec cp {} $CIRCLE_TEST_REPORTS/junit/ \;
     
 general:
-build_dir: src
+  build_dir: src
